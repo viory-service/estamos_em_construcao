@@ -1,0 +1,49 @@
+
+.header {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.header h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #0E63F4;
+}
+
+.header h2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.396px;
+    color: #2C3A57;
+}
+
+.header p {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.header .img {
+    width: 162px;
+    height: 38px;
+}
+/* 
+@media screen and (max-width: 890px) {
+  
+} */
